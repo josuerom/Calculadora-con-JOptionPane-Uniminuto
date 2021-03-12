@@ -19,7 +19,7 @@ public class Convertidor{
         //Calculos para hallar semanas, dias y horas.
         semanas = horas/168;
         dias = horas%168 /24;
-        hora = horas/60;
+        hora = horas%24;
 
         //Muestro los resultados con las ventanas para mejor interfaz.
         JOptionPane.showMessageDialog(null, horas+" = a las horas que acabas de ingresar");
